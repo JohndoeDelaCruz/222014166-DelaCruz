@@ -19,7 +19,7 @@
                 <input type="number" id="age" name="edad">
                 <br>
                 <br>
-                <input type="submit" value"Submit">
+                <input type="submit" value="Submit">
     
     
         </form>
