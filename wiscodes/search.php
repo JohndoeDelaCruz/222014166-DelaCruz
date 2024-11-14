@@ -23,8 +23,8 @@
         
                 // Connect to the database
                 $servername = "localhost";
-                $username = "u0_214"; // Replace with your database username
-                $password = "Jeydi"; // Replace with your database password
+                $username = "root"; // Replace with your database username
+                $password = ""; // Replace with your database password
                 $dbname = "search_db"; // The database we created earlier
         
                 // Create a connection
@@ -52,11 +52,11 @@
                 } else {
                     echo "No results found for: " . $searchQuery;
                 }
-        
+                
                 // Close the database connection
                 $conn->close();
             }
             ?>
-        </body>
+            </body>
         </html>
     
